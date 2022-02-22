@@ -1,5 +1,26 @@
--- @path Moore=/Moore2Mealy/Moore.ecore
--- @path Mealy=/Moore2Mealy/Mealy.ecore
+-- @path Moore=/fr.imta.mde.moore2mealy/Moore.ecore
+-- @path Mealy=/fr.imta.mde.moore2mealy/Mealy.ecore
 
 module Moore2Mealy;
 create OUT : Mealy from IN : Moore;
+
+rule copyState {
+	from
+		s : Moore!State
+	to
+		s1 :Mealy!State (
+			name <- s.name
+		)
+}
+
+rule copyTransition {
+	from
+		t : Moore!Transition
+	to 
+	    t1 : Mealy!Transition (
+	    	input <- t.input,
+			source <- t.source,
+			target <- t.target,
+			output <- t.target.output
+	    )
+}

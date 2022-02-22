@@ -2,3 +2,13 @@
 
 module InvertTransitions;
 create OUT : Mealy refining IN : Mealy;
+
+rule invertTransitions {
+	from
+		t : Mealy!Transition 
+	to 
+		t2 : Mealy!Transition (
+			source <- t.target,
+			target <- t.source
+		)
+}
