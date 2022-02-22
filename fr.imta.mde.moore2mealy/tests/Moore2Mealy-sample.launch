@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2m.atl.adt.launching.atlTransformation">
+    <stringAttribute key="ATL File Name" value="/fr.imta.mde.moore2mealy/Moore2Mealy.atl"/>
+    <stringAttribute key="ATL VM" value="EMF-specific VM"/>
+    <stringAttribute key="ATL_COMPILER" value="atl2006"/>
+    <booleanAttribute key="IS_REFINING" value="false"/>
+    <mapAttribute key="Input">
+        <mapEntry key="IN" value="Moore"/>
+    </mapAttribute>
+    <mapAttribute key="Libs"/>
+    <mapAttribute key="Model Handler">
+        <mapEntry key="Mealy" value="EMF"/>
+        <mapEntry key="Moore" value="EMF"/>
+    </mapAttribute>
+    <mapAttribute key="ModelType">
+        <mapEntry key="IN" value="MODELINPUT"/>
+        <mapEntry key="Mealy" value="METAMODELOUTPUT"/>
+        <mapEntry key="Moore" value="METAMODELINPUT"/>
+        <mapEntry key="OUT" value="MODELOUTPUT"/>
+    </mapAttribute>
+    <mapAttribute key="Options">
+        <mapEntry key="OPTION_CLEAR" value="false"/>
+        <mapEntry key="OPTION_CONTENT_TYPE" value="false"/>
+        <mapEntry key="OPTION_DERIVED" value="true"/>
+        <mapEntry key="allowInterModelReferences" value="false"/>
+        <mapEntry key="printExecutionTime" value="false"/>
+        <mapEntry key="step" value="false"/>
+        <mapEntry key="supportUML2Stereotypes" value="false"/>
+    </mapAttribute>
+    <listAttribute key="OrderedInput">
+        <listEntry value="IN"/>
+    </listAttribute>
+    <listAttribute key="OrderedOutput">
+        <listEntry value="OUT"/>
+    </listAttribute>
+    <mapAttribute key="Output">
+        <mapEntry key="OUT" value="Mealy"/>
+    </mapAttribute>
+    <mapAttribute key="Path">
+        <mapEntry key="IN" value="/fr.imta.mde.moore2mealy/tests/sampleMoore.xmi"/>
+        <mapEntry key="Mealy" value="/fr.imta.mde.moore2mealy/Mealy.ecore"/>
+        <mapEntry key="Moore" value="/fr.imta.mde.moore2mealy/Moore.ecore"/>
+        <mapEntry key="OUT" value="/fr.imta.mde.moore2mealy/tests/sampleMealy.xmi"/>
+    </mapAttribute>
+    <listAttribute key="Superimpose"/>
+</launchConfiguration>

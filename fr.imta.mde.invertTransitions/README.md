@@ -1,0 +1,1 @@
+This transformation inverts the transitions of a [Mealy state machine](https://en.wikipedia.org/wiki/Mealy_machine)

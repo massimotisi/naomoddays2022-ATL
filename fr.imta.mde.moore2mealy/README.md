@@ -1,0 +1,1 @@
+This ATL transformation transforms [Moore machines](https://en.wikipedia.org/wiki/Moore_machine) into [Mealy machines](https://en.wikipedia.org/wiki/Mealy_machine) (if we disregard the first output symbol of the Moore machine). The illustration of an example can be found [here](https://www.javatpoint.com/conversion-from-moore-machine-to-mealy-machine).

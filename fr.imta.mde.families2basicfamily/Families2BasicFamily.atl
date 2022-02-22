@@ -1,0 +1,5 @@
+-- @path Families=/fr.imta.mde.families2basicfamily/Families.ecore
+-- @nsURI BasicFamily=http://www.eclipse.org/sirius/sample/basicfamily
+
+module Families2BasicFamily;
+create OUT : BasicFamily from IN : Families;

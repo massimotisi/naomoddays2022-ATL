@@ -1,0 +1,5 @@
+-- @path Moore=/Moore2Mealy/Moore.ecore
+-- @path Mealy=/Moore2Mealy/Mealy.ecore
+
+module Moore2Mealy;
+create OUT : Mealy from IN : Moore;

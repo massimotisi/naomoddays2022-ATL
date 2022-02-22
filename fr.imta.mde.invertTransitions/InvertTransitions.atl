@@ -1,0 +1,4 @@
+-- @path Mealy=/fr.imta.mde.invertTransitions/Mealy.ecore
+
+module InvertTransitions;
+create OUT : Mealy refining IN : Mealy;

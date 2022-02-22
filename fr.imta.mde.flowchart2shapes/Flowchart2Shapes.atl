@@ -1,0 +1,5 @@
+-- @path Flowchart=/fr.imta.mde.flowchart2shapes/Flowchart.ecore
+-- @path Shapes=/fr.imta.mde.flowchart2shapes/Shapes.ecore
+
+module Flowchart2Shapes;
+create OUT : Shapes from IN : Flowchart;

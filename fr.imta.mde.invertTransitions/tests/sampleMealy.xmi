@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:Mealy="Mealy">
+  <Mealy:State name="S0"/>
+  <Mealy:State name="S1"/>
+  <Mealy:Transition input="1" source="/0" target="/1" output="0"/>
+  <Mealy:Transition input="0" source="/1" target="/0" output="1"/>
+</xmi:XMI>
